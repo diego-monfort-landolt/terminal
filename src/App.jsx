@@ -1,6 +1,5 @@
 import { useEffect, useRef, useState } from "react"
 
-
 function App() {
   const [input, setInput] = useState("")
   const [output, setOutput] = useState("")
@@ -38,7 +37,6 @@ function App() {
         }
       }}
       />
-
       <div className="terminal" >
          {output}
       </div>
